@@ -8,6 +8,8 @@ const pool = new Pool({
   ssl: true
 });
 
+// jsut comment
+
 express()
   .use(express.static(path.join(__dirname, 'public')))
   .set('views', path.join(__dirname, 'views'))
